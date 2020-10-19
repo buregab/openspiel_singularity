@@ -12,9 +12,9 @@ From: ubuntu:19.10
     DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
 
     # Installing miniconda
-    wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-    bash Miniconda3-latest-Linux-x86_64.sh -b -p /usr/local/miniconda3
-    rm Miniconda3-latest-Linux-x86_64.sh
+    # wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    # bash Miniconda3-latest-Linux-x86_64.sh -b -p /usr/local/miniconda3
+    # rm Miniconda3-latest-Linux-x86_64.sh
 
     ##### INSTALL THE DEPENDENCIES YOU NEED HERE #####
 

@@ -21,7 +21,7 @@ From: ubuntu:19.10
     ##################################################
 
     cd /usr/local
-    git clone https://github.com/deepmind/open_spiel.git
+    git clone --single-branch --branch brad_experiments https://github.com/buregab/open_spiel.git
     cd open_spiel
     yes | apt-get install sudo -y
 
